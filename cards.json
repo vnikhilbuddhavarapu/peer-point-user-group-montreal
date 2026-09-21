@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "card-1-threat-hunter",
+    "title": "Threat Hunter",
+    "repository": "[CARD_1_REPOSITORY_URL]",
+    "status": "Ready"
+  },
+  {
+    "slug": "card-2-code-review",
+    "title": "Code Review Agent",
+    "repository": "[CARD_2_REPOSITORY_URL]",
+    "status": "Ready with preview fallback"
+  },
+  {
+    "slug": "inbox-agent",
+    "title": "Inbox Agent",
+    "repository": "[CARD_3_REPOSITORY_URL]",
+    "status": "Ready with simulator fallback"
+  },
+  {
+    "slug": "card-4-cross-system",
+    "title": "Cross-System Agent",
+    "repository": "[CARD_4_REPOSITORY_URL]",
+    "status": "Ready with direct MCP fallback"
+  },
+  {
+    "slug": "card-5-watcher",
+    "title": "Watcher Agent",
+    "repository": "[CARD_5_REPOSITORY_URL]",
+    "status": "Ready with manual-check fallback"
+  }
+]
