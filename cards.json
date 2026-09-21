@@ -2,31 +2,36 @@
   {
     "slug": "card-1-threat-hunter",
     "title": "Threat Hunter",
-    "repository": "[CARD_1_REPOSITORY_URL]",
-    "status": "Ready"
+    "repository": "https://github.com/vnikhilbuddhavarapu/peer-point-card-1-threat-hunter",
+    "deployUrl": "https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-1-threat-hunter",
+    "status": "ready"
   },
   {
     "slug": "card-2-code-review",
     "title": "Code Review Agent",
-    "repository": "[CARD_2_REPOSITORY_URL]",
-    "status": "Ready with preview fallback"
+    "repository": "https://github.com/vnikhilbuddhavarapu/peer-point-card-2-code-review",
+    "deployUrl": "https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-2-code-review",
+    "status": "ready-with-fallback"
   },
   {
     "slug": "inbox-agent",
     "title": "Inbox Agent",
-    "repository": "[CARD_3_REPOSITORY_URL]",
-    "status": "Ready with simulator fallback"
+    "repository": "https://github.com/vnikhilbuddhavarapu/peer-point-card-3-inbox-agent",
+    "deployUrl": "https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-3-inbox-agent",
+    "status": "ready-with-fallback"
   },
   {
     "slug": "card-4-cross-system",
     "title": "Cross-System Agent",
-    "repository": "[CARD_4_REPOSITORY_URL]",
-    "status": "Ready with direct MCP fallback"
+    "repository": "https://github.com/vnikhilbuddhavarapu/peer-point-card-4-cross-system",
+    "deployUrl": "https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-4-cross-system",
+    "status": "ready-with-fallback"
   },
   {
     "slug": "card-5-watcher",
     "title": "Watcher Agent",
-    "repository": "[CARD_5_REPOSITORY_URL]",
-    "status": "Ready with manual-check fallback"
+    "repository": "https://github.com/vnikhilbuddhavarapu/peer-point-card-5-watcher",
+    "deployUrl": "https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-5-watcher",
+    "status": "ready-with-fallback"
   }
 ]

@@ -12,13 +12,13 @@ Build and deploy one of five Cloudflare Agent challenges. Each card starts as a 
 6. Give the URL to Peer Point OS, or clone it locally.
 7. Build, verify, push, and let Workers Builds redeploy automatically.
 
-| Card          | Build                                         | Main primitives                                 | Repository                | Deploy                | Status                           |
-| ------------- | --------------------------------------------- | ----------------------------------------------- | ------------------------- | --------------------- | -------------------------------- |
-| Threat Hunter | Investigate a seeded authentication attack    | Agents, Workers AI, AI Gateway, Durable Objects | `[CARD_1_REPOSITORY_URL]` | `[CARD_1_DEPLOY_URL]` | Ready                            |
-| Code Review   | Repair a failing repository in isolation      | Agents, Sandbox, Containers                     | `[CARD_2_REPOSITORY_URL]` | `[CARD_2_DEPLOY_URL]` | Ready with preview fallback      |
-| Inbox Agent   | Clarify an email and gate sending on approval | Agents, durable Actions, Email                  | `[CARD_3_REPOSITORY_URL]` | `[CARD_3_DEPLOY_URL]` | Ready with simulator fallback    |
-| Cross-System  | Join CRM, ERP, Jira, and config evidence      | Agents, MCP Portal, Access                      | `[CARD_4_REPOSITORY_URL]` | `[CARD_4_DEPLOY_URL]` | Ready with direct MCP fallback   |
-| Watcher       | Detect one material page change without noise | Browser Run, R2, scheduled tasks                | `[CARD_5_REPOSITORY_URL]` | `[CARD_5_DEPLOY_URL]` | Ready with manual-check fallback |
+| Card          | Build                                         | Main primitives                                 | Repository                                                               | Deploy                                                                                                              | Status                           |
+| ------------- | --------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| Threat Hunter | Investigate a seeded authentication attack    | Agents, Workers AI, AI Gateway, Durable Objects | `https://github.com/vnikhilbuddhavarapu/peer-point-card-1-threat-hunter` | `https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-1-threat-hunter` | Ready                            |
+| Code Review   | Repair a failing repository in isolation      | Agents, Sandbox, Containers                     | `https://github.com/vnikhilbuddhavarapu/peer-point-card-2-code-review`   | `https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-2-code-review`   | Ready with preview fallback      |
+| Inbox Agent   | Clarify an email and gate sending on approval | Agents, durable Actions, Email                  | `https://github.com/vnikhilbuddhavarapu/peer-point-card-3-inbox-agent`   | `https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-3-inbox-agent`   | Ready with simulator fallback    |
+| Cross-System  | Join CRM, ERP, Jira, and config evidence      | Agents, MCP Portal, Access                      | `https://github.com/vnikhilbuddhavarapu/peer-point-card-4-cross-system`  | `https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-4-cross-system`  | Ready with direct MCP fallback   |
+| Watcher       | Detect one material page change without noise | Browser Run, R2, scheduled tasks                | `https://github.com/vnikhilbuddhavarapu/peer-point-card-5-watcher`       | `https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-5-watcher`       | Ready with manual-check fallback |
 
 ## Peer Point OS prompt
 
