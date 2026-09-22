@@ -9,8 +9,8 @@ Build and deploy one of five Cloudflare Agent challenges. Each card starts as a 
 3. Authorize GitHub and select only your temporary lab account.
 4. Wait for the starter deployment to finish.
 5. Copy the generated Git repository URL.
-6. Give the URL to Peer Point OS, or clone it locally.
-7. Build, verify, push, and let Workers Builds redeploy automatically.
+6. Invoke the card's Peer Point OS skill with that URL, or clone it locally.
+7. Build, verify, merge the proposed pull request, and let Workers Builds redeploy automatically.
 
 | Card          | Build                                         | Main primitives                                 | Repository                                                               | Deploy                                                                                                              | Status                           |
 | ------------- | --------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
@@ -20,11 +20,41 @@ Build and deploy one of five Cloudflare Agent challenges. Each card starts as a 
 | Cross-System  | Join CRM, ERP, Jira, and config evidence      | Agents, MCP Portal, Access                      | `https://github.com/vnikhilbuddhavarapu/peer-point-card-4-cross-system`  | `https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-4-cross-system`  | Ready with direct MCP fallback   |
 | Watcher       | Detect one material page change without noise | Browser Run, R2, scheduled tasks                | `https://github.com/vnikhilbuddhavarapu/peer-point-card-5-watcher`       | `https://deploy.workers.cloudflare.com/?url=https://github.com/vnikhilbuddhavarapu/peer-point-card-5-watcher`       | Ready with manual-check fallback |
 
-## Peer Point OS prompt
+## Peer Point OS starter prompts
+
+After deployment, replace the example with the GitHub repository that Deploy to Cloudflare created for you.
+
+### Threat Hunter
 
 ```text
-Clone this repository in an isolated Container MCP environment. Read the complete README before editing. Run npm ci and npm run verify to establish a baseline. Implement a working version of the challenge while preserving its Cloudflare primitives and safety constraints. You may choose a different architecture from the suggested path. Run focused tests and npm run verify, inspect the diff, then push through the GitHub gatekeeper. Do not claim success until verification passes. After the push, inspect Workers Builds and give me the deployed URL and demo checklist.
+/threat-hunter https://github.com/<your-user>/<deploy-created-repository>
 ```
+
+### Code Review Agent
+
+```text
+/code-review-agent https://github.com/<your-user>/<deploy-created-repository>
+```
+
+### Inbox Agent
+
+```text
+/inbox-agent https://github.com/<your-user>/<deploy-created-repository>
+```
+
+### Cross-System Agent
+
+```text
+/cross-system-agent https://github.com/<your-user>/<deploy-created-repository>
+```
+
+### Watcher Agent
+
+```text
+/watcher-agent https://github.com/<your-user>/<deploy-created-repository>
+```
+
+Peer Point OS prefers Container MCP verification. If Container MCP becomes unavailable, it continues through a GitHub branch and pull request, then uses GitHub Actions and Workers Builds as the verification and deployment gates.
 
 ## Own IDE
 
