@@ -78,9 +78,3 @@ npm run deploy
 - Do not hardcode the expected answer.
 - Preserve each card's validation, bounds, and approval controls.
 - A different implementation is welcome if the required behavior and Cloudflare primitives remain demonstrable.
-
-## Links
-
-- Peer Point OS: `[PEER_POINT_OS_URL]`
-- Slides: `[EVENT_SLIDES_URL]`
-- Support: `[EVENT_SUPPORT_URL]`
